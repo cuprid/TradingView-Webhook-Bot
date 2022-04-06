@@ -5,6 +5,11 @@
 # ----------------------------------------------- #
 
 # TradingView Example Alert Message:
+{
+    "key":"gundulPacul777", 
+    "telegram":"-1001672905672", 
+    "msg":"{{ticker}} at {{close}}"
+}
 
 sec_key = (
     "gundulPacul777"  # Can be anything. Has to match with "key" in your TradingView alert message
@@ -40,9 +45,3 @@ email_port = 465  # SMTP SSL Port (ex. 465)
 email_host = ""  # SMTP host (ex. smtp.gmail.com)
 email_user = ""  # SMTP Login credentials
 email_password = ""  # SMTP Login credentials
-
-{
-    "key":"gundulPacul777", 
-    "telegram":"-1001672905672", 
-    "msg":"Long *#{{ticker}}* at `{{close}}`"
-}
