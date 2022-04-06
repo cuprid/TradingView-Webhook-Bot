@@ -14,7 +14,7 @@ sec_key = (
 )
 
 # Telegram Settings
-send_telegram_alerts = False
+send_telegram_alerts = True
 tg_token = "5056572283:AAF4xqvg_FIqqEw-U3feNW0rN4tYMRBC9gk"  # Bot token. Get it from @Botfather
 channel = -1001672905672  # Channel ID (ex. -1001487568087)
 
