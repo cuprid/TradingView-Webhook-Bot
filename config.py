@@ -6,7 +6,9 @@
 
 # TradingView Example Alert Message:
 {
-    "key":"gundulPacul777", "telegram":"-1001672905672", "msg":"Long #{{ticker}} at `{{close}}`"
+    "key":"gundulPacul777", 
+    "telegram":"-1001672905672", 
+    "msg":"Long *#{{ticker}}* at `{{close}}`"
 }
 
 sec_key = (
