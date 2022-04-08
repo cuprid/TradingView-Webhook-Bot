@@ -5,12 +5,12 @@
 # ----------------------------------------------- #
 
 # TradingView Example Alert Message:
-#{
-#"key":"gundulPacul777", "telegram":"-1001672905672", "msg":"Long #{{ticker}} at `{{close}}`"
-#}
+{
+"key":"9T2q394M92", "telegram":"-1001672905672", "msg":"Long #{{ticker}} at `{{close}}`"
+}
 
 sec_key = (
-    "gundulPacul777"  # Can be anything. Has to match with "key" in your TradingView alert message
+    "9T2q394M92"  # Can be anything. Has to match with "key" in your TradingView alert message
 )
 
 # Telegram Settings
